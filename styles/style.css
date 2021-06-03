@@ -31,11 +31,17 @@ button {
   color: #292b2c;
   font-weight: 600;
   text-transform: uppercase;
-
+  padding-right: 30px;
   /* Challenge: can you make the navigation links orange on hover? */
 }
 
 /* Buttons */
+.btn1, .btn2{
+  padding: 8px;
+  border: 0;
+  border-radius: 5%;
+}
+
 .btn1 {
   background-color: #c05326;
 }
