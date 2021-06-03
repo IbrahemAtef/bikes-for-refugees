@@ -44,6 +44,7 @@ button {
 
 .btn1 {
   background-color: #c05326;
+  color: #fff;
 }
 
 .btn2 {
@@ -53,6 +54,7 @@ button {
 
 .btn1:hover, .btn1:focus, .btn2:hover, .btn2:focus {
   background-color: #934423;
+  color: #fff;
 }
 
 /* INSERT BUTTON STYLES HERE */
@@ -85,7 +87,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("/images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -117,11 +119,25 @@ button {
 
 .article {
   margin-bottom: 2em;
+  border: 2px solid #ddd;
+}
+
+.sidebar.col-lg-4 > article {
+  border-radius: 5px;
+  height: 18%;
+  padding: 10px;
+}
+
+.sidebar > .article > .article__body {
+  float: right;
+  width: 72%;
+  height: 101px;
 }
 
 .article__image {
   object-fit: contain;
   width: 5rem;
+  padding-top: 30px;
 }
 
 .article__title {
@@ -148,6 +164,14 @@ button {
 
 .article__read-more:last-child {
   margin-bottom: 0;
+}
+
+.box-article {
+	float: left;
+	width: 47%;
+	height: 215px;
+	padding: 20px;
+	margin-left: 15px;
 }
 
 /* Footer */
