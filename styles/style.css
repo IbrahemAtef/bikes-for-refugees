@@ -36,6 +36,14 @@ button {
 }
 
 /* Buttons */
+.btn1 {
+  background-color: #c05326;
+}
+
+.btn2 {
+  background-color: #fff;
+  color: #c05326;
+}
 
 /* INSERT BUTTON STYLES HERE */
 
